@@ -1,0 +1,15 @@
+ints/lstm_delta/checkpoint46.pt (epoch 46 @ 10580 updates, score 0.675) (writing took 0.36570521400426514 seconds)
+epoch 046 | loss 0.03 | ppl 1.02 | wps 61413.7 | ups 18.31 | wpb 3353.2 | bsz 456.5 | num_updates 10580 | lr 0.001 | gnorm 0.443 | clip 85.2 | train_wall 10 | wall 580
+epoch 047 | valid on 'valid' subset | loss 0.683 | ppl 1.61 | wps 78895.5 | wpb 3059.5 | bsz 416.7 | num_updates 10810 | best_loss 0.374                        
+epoch 047:  99%|9| 228/230 [00:11<00:00, 21.34it/s, loss=0.031, ppl=1.02, wps=702021-03-31 23:54:30 | INFO | fairseq.checkpoint_utils | saved checkpoint checkpoints/lstm_delta/checkpoint47.pt (epoch 47 @ 10810 updates, score 0.683) (writing took 0.35237421200145036 seconds)
+epoch 047 | loss 0.028 | ppl 1.02 | wps 62560.5 | ups 18.66 | wpb 3353.2 | bsz 456.5 | num_updates 10810 | lr 0.001 | gnorm 0.287 | clip 84.3 | train_wall 10 | wall 592
+epoch 048 | valid on 'valid' subset | loss 0.679 | ppl 1.6 | wps 78503.5 | wpb 3059.5 | bsz 416.7 | num_updates 11040 | best_loss 0.374                         
+epoch 048: 100%|9| 229/230 [00:12<00:00, 22.14it/s, loss=0.03, ppl=1.02, wps=7142021-03-31 23:54:43 | INFO | fairseq.checkpoint_utils | saved checkpoint checkpoints/lstm_delta/checkpoint48.pt (epoch 48 @ 11040 updates, score 0.679) (writing took 0.3429046590026701 seconds)
+epoch 048 | loss 0.028 | ppl 1.02 | wps 62468.7 | ups 18.63 | wpb 3353.2 | bsz 456.5 | num_updates 11040 | lr 0.001 | gnorm 0.239 | clip 80 | train_wall 10 | wall 605
+epoch 049 | valid on 'valid' subset | loss 0.677 | ppl 1.6 | wps 78720.9 | wpb 3059.5 | bsz 416.7 | num_updates 11270 | best_loss 0.374                         
+epoch 049:  99%|9| 227/230 [00:12<00:00, 21.68it/s, loss=0.025, ppl=1.02, wps=712021-03-31 23:54:55 | INFO | fairseq.checkpoint_utils | saved checkpoint checkpoints/lstm_delta/checkpoint49.pt (epoch 49 @ 11270 updates, score 0.677) (writing took 0.34865714800253045 seconds)
+epoch 049 | loss 0.027 | ppl 1.02 | wps 62204.9 | ups 18.55 | wpb 3353.2 | bsz 456.5 | num_updates 11270 | lr 0.001 | gnorm 0.526 | clip 78.7 | train_wall 10 | wall 617
+epoch 050 | valid on 'valid' subset | loss 0.687 | ppl 1.61 | wps 65980.6 | wpb 3059.5 | bsz 416.7 | num_updates 11500 | best_loss 0.374                        
+epoch 050:  99%|9| 228/230 [00:12<00:00, 22.06it/s, loss=0.034, ppl=1.02, wps=752021-03-31 23:55:08 | INFO | fairseq.checkpoint_utils | saved checkpoint checkpoints/lstm_delta/checkpoint50.pt (epoch 50 @ 11500 updates, score 0.687) (writing took 0.34616949599876534 seconds)
+epoch 050 | loss 0.028 | ppl 1.02 | wps 61492.2 | ups 18.34 | wpb 3353.2 | bsz 456.5 | num_updates 11500 | lr 0.001 | gnorm 0.322 | clip 80.9 | train_wall 10 | wall 630
+2021-03-31 23:55:08 | INFO | fairseq_cli.train | done training in 628.1 seconds

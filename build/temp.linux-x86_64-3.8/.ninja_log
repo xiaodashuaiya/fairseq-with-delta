@@ -1,0 +1,13 @@
+# ninja log v5
+1	103	1597741897604935978	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/clib/libbleu/module.o	fbfaab47c9647143
+0	307	1597741897808932384	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/clib/libbleu/libbleu.o	67b572e54e8f423f
+0	3392	1597741901208872907	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/data/data_utils_fast.o	27f245e89bf6f30e
+0	3713	1597741905136805080	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/data/token_block_utils_fast.o	b6b674d55461016d
+0	14378	1597741919596563470	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/clib/libnat/edit_dist.o	557f97b48fb7914a
+0	3354	1597741943284194366	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/data/data_utils_fast.o	27f245e89bf6f30e
+0	3733	1597741947128137509	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/data/token_block_utils_fast.o	b6b674d55461016d
+10	2369	1602492732666469174	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/clib/libbleu/module.o	fbfaab47c9647143
+10	2370	1602492732666469174	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/clib/libbleu/libbleu.o	67b572e54e8f423f
+0	4599	1602492737750491535	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/data/data_utils_fast.o	27f245e89bf6f30e
+0	4635	1602492742426512101	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/data/token_block_utils_fast.o	b6b674d55461016d
+23	16918	1602492759594587611	/home/xds/fairseq/build/temp.linux-x86_64-3.8/fairseq/clib/libnat/edit_dist.o	557f97b48fb7914a

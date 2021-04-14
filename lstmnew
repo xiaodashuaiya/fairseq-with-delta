@@ -1,0 +1,11 @@
+2021-03-30 22:41:00 | INFO | fairseq.trainer | begin training epoch 50
+epoch 050: 100%|▉| 229/230 [05:31<00:01,  1.41s/it, loss=0.027, ppl=1.02, wps=222021-03-30 22:46:33 | INFO | fairseq_cli.train | begin validation on "valid" subset
+                                                                               2021-03-30 22:46:43 | INFO | valid | epoch 050 | valid on 'valid' subset | loss 0.699 | ppl 1.62 | wps 7474.7 | wpb 3059.5 | bsz 416.7 | num_updates 11500 | best_loss 0.384
+2021-03-30 22:46:43 | INFO | fairseq_cli.train | begin save checkpoint
+2021-03-30 22:46:43 | INFO | fairseq.trainer | Preparing to save checkpoint to checkpoints/lstm_new/checkpoint50.pt after 11500 updates
+2021-03-30 22:46:43 | INFO | fairseq.trainer | Finished saving checkpoint to checkpoints/lstm_new/checkpoint50.pt
+2021-03-30 22:46:44 | INFO | fairseq.checkpoint_utils | saved checkpoint checkpoints/lstm_new/checkpoint50.pt (epoch 50 @ 11500 updates, score 0.699) (writing took 0.23557466700003715 seconds)
+2021-03-30 22:46:44 | INFO | fairseq_cli.train | end of epoch 50 (average epoch stats below)
+2021-03-30 22:46:44 | INFO | train | epoch 050 | loss 0.029 | ppl 1.02 | wps 2242.9 | ups 0.67 | wpb 3353.2 | bsz 456.5 | num_updates 11500 | lr 0.001 | gnorm 0.235 | clip 79.1 | train_wall 333 | wall 22405
+2021-03-30 22:46:44 | INFO | fairseq_cli.train | done training in 22405.1 seconds
+
