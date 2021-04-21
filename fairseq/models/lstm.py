@@ -10,7 +10,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from fairseq import utils
 from fairseq.models import (
-    FairseqEncoder,
+    register_model,
     FairseqEncoderDecoderModel,
     FairseqIncrementalDecoder,
     register_model,
@@ -23,7 +23,7 @@ from delta import *
 DEFAULT_MAX_SOURCE_POSITIONS = 1e5
 DEFAULT_MAX_TARGET_POSITIONS = 1e5
 
-
+""" 
 def AddDelta(i):
     #  res = torch.cat((i, i * i), -1)
     #  return res
@@ -52,7 +52,7 @@ def AddTwoDelta(i):
 
     res = torch.cat((i, delta, delta_2), -1)
     return res
-
+ """
 
 @register_model("lstm")
 class LSTMModel(FairseqEncoderDecoderModel):
@@ -318,7 +318,7 @@ class LSTMEncoderDelta(FairseqEncoder):
 
         # embed tokens
         x = self.embed_tokens(src_tokens)
-        x = AddTwoDelta(x)
+        x = delta.AddTwoDelta(x)
         x = self.dropout_in_module(x)
 
         # B x T x C -> T x B x C

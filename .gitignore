@@ -1,0 +1,15 @@
+checkpoints/lstm_new/checkpoint_best.pt
+checkpoints/lstm_old/checkpoint50.pt
+checkpoints/lstm_old/checkpoint47.pt
+checkpoints/lstm_old/checkpoint49.pt
+checkpoints/lstm_old/checkpoint48.pt
+checkpoints/lstm_old/checkpoint46.pt
+checkpoints/lstm_old/checkpoint_last.pt
+checkpoints/lstm_old/checkpoint_best.pt
+checkpoints/lstm_new/checkpoint50.pt
+checkpoints/lstm_new/checkpoint49.pt
+checkpoints/lstm_new/checkpoint48.pt
+checkpoints/lstm_new/checkpoint47.pt
+checkpoints/lstm_new/checkpoint46.pt
+checkpoints/lstm_new/checkpoint_last.pt
+fairseq/models/.vscode/settings.json

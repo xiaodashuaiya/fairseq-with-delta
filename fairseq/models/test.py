@@ -1,4 +1,10 @@
-def AddTwoDelta(i):
+from delta import *
+import torch
+
+a = torch.tensor([1, 2, 3, 4, 5])
+a = two_delta.test(a)
+print(a)
+""" def AddTwoDelta(i):
     #res = torch.cat((feature, delta, delta_2), -1)
     #final_feature = feature / delta / delta_2
 
@@ -15,3 +21,4 @@ def AddTwoDelta(i):
 
     res = torch.cat((i, delta, delta_2), -1)
     return res
+ """
