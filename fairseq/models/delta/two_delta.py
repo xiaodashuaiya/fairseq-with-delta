@@ -18,7 +18,6 @@ def AddTwoDelta(i):
     res = torch.cat((i, delta, delta_2), 1)
     return res
 
-
 def test(i):
     #res = torch.cat((feature, delta, delta_2), -1)
     #final_feature = feature / delta / delta_2

@@ -1,4 +1,5 @@
 examples
 fairseq
+fairseq1
 fairseq_cli
 tests

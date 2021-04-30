@@ -1,4 +1,4 @@
-from delta import *
+from fairseq.models.delta import two_delta
 import torch
 
 a = torch.tensor([1, 2, 3, 4, 5])
